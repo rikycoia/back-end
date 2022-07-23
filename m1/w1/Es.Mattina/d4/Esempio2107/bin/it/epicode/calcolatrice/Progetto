@@ -1,0 +1,14 @@
+   /*
+     * Una [calcolatrice] dispone di un [accumulatore] usato per (eseguire le 4
+     * operazioni) aritmetiche fondamentali.
+     */
+     
+//calcolatrice ===> double
+//accumulatore 
+
+//eseguire le 4 operazioni fondamentali ===> addizione, ===> (double)
+											 sottrazione, ===> (double)
+											 moltiplicazione, ===> (double)
+											 divisione ===> (double)
+											 
+											 

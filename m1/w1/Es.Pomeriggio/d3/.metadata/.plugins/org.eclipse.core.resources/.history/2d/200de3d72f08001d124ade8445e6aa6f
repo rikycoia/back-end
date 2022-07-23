@@ -1,0 +1,10 @@
+
+public class Bisestile {
+
+	int year = 2020;
+	private boolean isLeapYear(int year) {
+		boolean result = false;
+		if (year % 400 == 0 || year % 4 == 0);
+		return true;
+	}
+}

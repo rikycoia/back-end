@@ -1,0 +1,18 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		Bisestile year = new Bisestile();
+		
+		boolean x = (year.isLeapYear(2023));
+		
+		System.out.println(x);
+		
+		Switch numeroSwitch = new Switch();
+		String y = (Switch.between(2));
+		
+		System.out.println(y);
+	}
+
+}

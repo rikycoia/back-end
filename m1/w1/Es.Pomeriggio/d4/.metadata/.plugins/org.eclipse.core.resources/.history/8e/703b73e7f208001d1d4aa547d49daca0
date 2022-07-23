@@ -1,0 +1,9 @@
+package it.epicode.dipendenti;
+
+public class Livello {
+	String operaio;
+	String impiegato;
+	String quadro;
+	String vendite;
+	
+}

@@ -1,0 +1,35 @@
+package it.epicode.dipendenti;
+
+public class Dipendenti {
+	
+	
+	private String matricola;
+	private double stipendio;
+	private double importoOrarioStraordinario;
+	private Livello livello;
+	private Dipartimento dipartimento;
+
+
+
+
+
+public Dipendenti(String matricola, double stipendio, double importoOrarioStraordinario, Livello livello,
+		Dipartimento dipartimento) {
+	super();
+	this.matricola = matricola;
+	this.stipendio = stipendio;
+	this.importoOrarioStraordinario = importoOrarioStraordinario;
+	this.livello = livello;
+	this.dipartimento = dipartimento;
+}
+
+
+
+public Dipendenti(String matricola, Dipartimento dipartimento) {
+	super();
+	this.matricola = matricola;
+	this.dipartimento = dipartimento;
+	this.stipendio = 30;
+	livello = Livello.OPERAIO;
+}
+}

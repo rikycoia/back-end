@@ -1,0 +1,11 @@
+//**Scrivere la classe [Dipendenti] con i seguenti attributi:
+//			- stipendio base ==> statico, duoble;
+//			- matricola      ==> statico, int;
+//          - stipendio      ==> statico, duoble;
+//          - importoOrarioStraordinario ==>  statico, duoble;
+//			- Livello ==> valori possibili [OPERAIO, IMPIEGATO, QUADRO, DIRIGENTE];
+//			- Dipartimento ==> Valori possibili [PRODUZIONE, AMMINISTRAZIONE, VENDITE];
+
+
+
+

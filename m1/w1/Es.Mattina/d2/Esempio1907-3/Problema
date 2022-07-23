@@ -1,0 +1,21 @@
+Occorre gestire una coda di [persone] in fila all'ufficio postale
+Non possono arrivare più di 5 persone perr esigenze COVID.
+
+Cosa si intende con il termine "persona"?
+Una [persona] è identificata tramite [un nome], [un cognome] e [un codice fiscale].
+
+Relazioni:
+1 Persona => (1 nome, 1 cognome, 1 codice fiscale) { COMPOSIZIONE }
+
+
+*****************************
+* Persona                   *
+*****************************
+* nome              Stringa *
+* cognome           Stringa *
+* codice fiscale    Stringa *
+*****************************
+
+Cosa si intende per "nome"? una sequenza di lettere
+Cosa si intende per "cognome"? una sequenza di lettere
+Cosa si intende per "codice fiscale"? una sequenza di lettere e numeri

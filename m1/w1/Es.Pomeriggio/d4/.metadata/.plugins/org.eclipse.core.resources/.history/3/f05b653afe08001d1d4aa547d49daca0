@@ -1,0 +1,13 @@
+package it.epicode.dipendenti;
+
+public class DipendentiMain {
+	
+	
+
+	public static void main(String[] args) {
+
+		Dipendenti Aldi = new Dipendenti (null, 0, 0, null, null);
+		System.out.println(Aldi);
+	}
+
+}

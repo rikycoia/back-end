@@ -1,0 +1,25 @@
+Siano dati in input i [dati anagrafici di una persona] e si implementi
+un algoritmo in grado di <calcolare> il [codice fiscale] corrispondente.
+
+Cosa intendo per "dati anagrafici di una persona"?
+I dati anagrafici di una [persona] necessari sono: 
+[nome], [cognome], [data di nascita], [città di nascita] e [sesso].
+
+Persona
+	nome				alfabetico
+	cognome				alfabetico
+	data di nascita		Data (ovvero un insieme di anno, mese, giorno)
+	città di nascita	alfabetico
+	sesso				carattere (m/f)
+	
+Data 
+	anno	intero
+	mese	intero
+	giorno	intero
+	
+Come sarà rappresentato il codice fiscale?
+Il codice fiscale è una sequenza di 16 caratteri calcolati secondo un 
+algoritmo che trasforma i dati anagrafici di una persona ricevuti in input
+
+Operazioni da implementare
+calcolacodicefiscale: INPUT = Persona - OUTPUT = stringa

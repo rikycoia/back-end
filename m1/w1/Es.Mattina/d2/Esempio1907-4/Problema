@@ -1,0 +1,19 @@
+Vogliamo gestire la possibilità di calcolare
+la media dei [voti] ottenuti da uno [studente] (max 5 voti).
+
+Analisi
+
+Concetti:
+1 Studente -> possiede -> 5 voti
+
+Cosa intendo per "studente"?
+Uno studente ha un nome, un cognome e un numero di matricola
+
+Cosa intendo per "voto"?
+Un voto è un numero tra 1 e 10
+
+Studente
+	1 nome
+	1 cognome
+	1 matricola
+	5 voti

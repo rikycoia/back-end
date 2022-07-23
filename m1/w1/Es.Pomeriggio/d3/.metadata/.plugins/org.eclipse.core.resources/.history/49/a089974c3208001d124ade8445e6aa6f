@@ -1,0 +1,12 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		Bisestile year = new Bisestile();
+		
+		boolean x = (year.isLeapYear(2020));
+		System.out.println(year.isLeapYear(2020));
+	}
+
+}

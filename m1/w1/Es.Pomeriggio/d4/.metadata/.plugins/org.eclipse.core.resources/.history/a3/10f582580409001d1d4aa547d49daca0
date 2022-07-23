@@ -1,0 +1,14 @@
+package it.epicode.dipendenti;
+
+public class DipendentiMain {
+	
+	
+
+
+	public  void main(String[] args) {
+
+		Dipendenti Aldi = new Dipendenti ("stagista", Dipartimento.VENDITE);
+		Aldi.stampaDatiDipendente();
+	}
+
+}

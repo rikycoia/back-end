@@ -1,0 +1,20 @@
+import javax.swing.plaf.synth.SynthOptionPaneUI;
+
+public class PariDispari {
+
+	public static void main(String[] args) {
+		
+		int numero = 10; 
+		
+		System.out.println(numero);
+	}
+	
+	public static boolean isThisPari(int numero) {
+		if((numero % 2 == 0)) {
+			return true;
+		}else {
+			return false;
+		}
+			
+ }
+}
