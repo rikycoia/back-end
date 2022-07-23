@@ -10,6 +10,8 @@ public class Program {
 	 * quale oggetto eseguire (leggendo un intero da 1 a 5 oppure 0 per finire).
 	 */
 
+	private static final int Immagine = 0;
+	private static final int Video = 0;
 	public static Scanner scanner = new Scanner(System.in);
 
 	public static int readInt() {
@@ -35,14 +37,18 @@ public class Program {
 	}
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 
-		Multimedia[] media = new Multimedia[5];
+		// Creazione di un array Multimedia di 5 elementi di classe diversa (Audio,
+		// Video, Immaigine)
+		Multimedia[] media = new Multimedia[] { new Video("video1", 0, 10, 0), new Audio("audio1", 10, 0),
+				new Immagine("img1", 0), new Video("video2", 0, 20, 0), new Audio("audio2", 20, 0) };
 
 		System.out.println("Cosa vuoi creare=");
 		int scelta = readInt();
 		switch (scelta) {
 		case 1: // crea immagine
+			  System.out.println("Hai selezionato il file immagine");
+			  break;
 		case 2: // crea audio
 		case 3: // crea video
 		}
