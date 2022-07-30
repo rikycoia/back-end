@@ -1,0 +1,36 @@
+CATALOGO BIBLIOTECARIO
+
+Creare le calssi necessarie a gestire un (catalogo bibliotecario). Il catalogo è formato da elementi che possono
+essere [book] o [magazine].
+Queste classi hanno alcuni attributi in comune, per questo creaiamo una classe astratta: 
+
+
+		[Catalog] che ha i seguenti attributi in comune:
+				- String ISBNcode;
+				- String title;
+				- String PublicationYear;
+				- int numOfPage;
+				
+Creiamo due classi in cui ci saranno gli attributi non in comune:
+
+		[Book] che ha i seguenti attributi:	
+				- String author;
+				- String genre;
+				
+		[Magazine] che ha i seguenti attributi:
+				- String author;	
+				- String genre;	
+		Inoltre [Magazine] ha anche una periodicità che andremo a gestire con un enum:
+		
+		        (Periodicity):
+		      				  - settimanale;
+		      				  - mensile;
+		      				  - semestrale;
+				
+L'archivio deve permettere le seguenti operazioni:
+	-Aggiunta di un elemento;
+	-Rimozione di un elemento dato un codice ISBN
+	-Ricerca per anno di pubblicazione;
+	-Ricerca per autore;	
+	-Salvataggio su disco dell'archivio;
+	-Caricamento dal disco dell'archivio.

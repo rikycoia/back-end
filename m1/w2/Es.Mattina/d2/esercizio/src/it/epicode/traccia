@@ -1,0 +1,4 @@
+     // Un'azienda registra i propri clienti con nome, cognome, codice univoco e
+        // regione di appartenenza
+        // è necessario garantire la possibilità di gestire i clienti in un elenco
+        // e, a volte, di avere gli elenchi di cliente per regione di appartenenza.

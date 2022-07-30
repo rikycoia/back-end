@@ -8,8 +8,9 @@
     <fullyQualifiedTypeName name="it.epicode.multimedia.player.VisualizzaElemento"/>
     <fullyQualifiedTypeName name="java.awt.font.ImageGraphicAttribute"/>
     <fullyQualifiedTypeName name="it.epicode.multimedia.player.Audio"/>
-    <fullyQualifiedTypeName name="it.epicode.multimedia.player.Immagine"/>
     <fullyQualifiedTypeName name="it.epicode.multimedia.player.Video"/>
     <fullyQualifiedTypeName name="javax.print.attribute.standard.Media"/>
     <fullyQualifiedTypeName name="it.epicode.multimedia.player.Multimedia"/>
+    <fullyQualifiedTypeName name="it.epicode.multimedia.player.Immagine"/>
+    <fullyQualifiedTypeName name="javax.print.DocFlavor.INPUT_STREAM"/>
 </qualifiedTypeNameHistroy>

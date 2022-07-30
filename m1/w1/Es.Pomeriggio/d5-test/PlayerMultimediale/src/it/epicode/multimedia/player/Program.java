@@ -47,10 +47,12 @@ public class Program {
 		int scelta = readInt();
 		switch (scelta) {
 		case 1: // crea immagine
-			  System.out.println("Hai selezionato il file immagine");
-			  break;
+				
+			break;
 		case 2: // crea audio
+
 		case 3: // crea video
+
 		}
 
 		// chiedi cosa vuole visualizzare
