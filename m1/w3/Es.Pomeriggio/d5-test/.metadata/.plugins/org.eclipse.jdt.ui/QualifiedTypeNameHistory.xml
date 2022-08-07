@@ -1,2 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<qualifiedTypeNameHistroy/>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="org.hibernate.annotations.common.util.impl.Log"/>
+    <fullyQualifiedTypeName name="ch.qos.logback.classic.Logger"/>
+    <fullyQualifiedTypeName name="it.epicode.Program"/>
+    <fullyQualifiedTypeName name="org.hibernate.annotations.common.util.impl.LoggerFactory"/>
+</qualifiedTypeNameHistroy>
