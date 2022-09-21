@@ -1,0 +1,14 @@
+GESTIONE INCENDI
+
+Models:  
+		-Sonda:
+				Long id;
+				Double latitudite;
+				Double longitudine;
+				Double smokeLevel;
+				
+		-CentroDiControllo: 
+				Long id;
+				Sonda sonda;
+				
+						
